@@ -1,0 +1,45 @@
+<div class="all">
+			<div class=" allpost">
+			<div class="imgpost">
+			<img src="img.jpg">
+			</div>
+			
+			<div class="name">
+			<span> sally krwi<span>
+			<p id="p"> 10 hours</p>
+			</div>
+			<div id="po">
+			l love this city and I wish to visit it,<br>
+			#nice_city.
+			
+			
+			
+			
+			<div class="active">
+			<div id="like">
+			<span> like</span>
+			</div>
+			<div id="coment">
+			<span> coment</span>
+			</div>
+			</div>
+			</div>
+			
+			
+			
+			</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

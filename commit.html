@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+    $("#rep").click(function(){
+        $("textarea").slideDown("slow");
+		$(".replay").slideDown("slow");
+    });
+	 $("#po").click(function(){
+		$(".replay").slideUp("slow");
+        $(".comi").slideDown("slow");
+        $("textarea").slideDown("slow");
+		
+    });
+});
+
+
+
+</script>
+<div class="post">
+	<div class="photo" style="margin:0px;">
+		<img src="img.jpg" class="img">
+	</div>
+	
+	
+	<div class="name"> 
+		<h3>Sally Krwi</h3><br>
+	</div>
+	
+	<div class="clear"></div>
+	<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</p>
+	<div class="clear"></div>
+	
+	<button>like</button>
+	<button id="po">commint</button>
+	<div class="clear"></div>
+	<div class="com">
+	<div class="pho">
+		<img src="img.jpg" class="ico">
+	</div>
+	<div class="name"> 
+		<h5>Sally Krwi</h5><br>
+	</div>
+	<div class="clear"></div>
+		<span>I like this place very much</span><br>
+		
+		<a href="#">like</a>
+		<a href="#" id="rep" style="margin-left:20px">replay</a>
+		
+		
+		<div class="replay">
+			<div class="pho">
+				<img src="img.jpg" class="ico">
+			</div>
+			<div class="name"> 
+				<h5 style="margin-top:0px">Sally Krwi</h5><br>
+			</div>
+			<div class="clear"></div>
+				<span style="margin-top:20px;">I like this place very much</span><br>
+				<a href="#">like</a>
+				<textarea type="text" placeholder="Enter your commint" rows="3" cols="28" class=""></textarea><br>
+			</div>
+		</div>
+
+		
+		
+		<div class=".clear"></div>
+		<div class="comi">
+		<div class="pho">
+			<img src="k.jpg" class="ico">
+		</div>
+		<div class="name"> 
+			<h5>Sally Krwi</h5><br>
+		</div>
+		
+		<textarea type="text" placeholder="Enter your commint" rows="3" cols="28" class=""></textarea><br>
+	</div>
+		<div class="clear"></div>
+			
+		</div>
+	
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
